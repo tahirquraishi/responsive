@@ -222,6 +222,7 @@ footer {
     .showcase {
         min-height: 300px;
         min-width: 350px;
+        background-size: auto;
         padding: 1.2rem;
     }
 
