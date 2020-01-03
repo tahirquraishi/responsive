@@ -32,13 +32,13 @@ img{
 
 .wrapper {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 15px;
 }
 
 /* Navigation */
 .main-nav ul {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 15px;
     padding: 0;
     list-style: none;
     grid-template-columns: 1fr 1fr 1fr 1fr;    /* repeat(4, 1fr)*/
@@ -71,7 +71,7 @@ img{
 /* Top Container */
 .top-container {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 15px;
     grid-template-areas:
         'showcase showcase top-box-a'
         'showcase showcase top-box-b';
@@ -127,7 +127,7 @@ img{
 /* Boxes */
 .boxes {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
@@ -151,7 +151,7 @@ img{
 /* portfolio */
 .portfolio {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
@@ -221,13 +221,13 @@ footer {
 
     .boxes {
         display: grid;
-        grid-gap: 15px;
+        grid-gap: 10px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     .portfolio {
         display: grid;
-        grid-gap: 15px;
+        grid-gap: 10px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
