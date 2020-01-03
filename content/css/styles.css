@@ -202,6 +202,12 @@ footer {
 
 /* media query for 500px or less */
 @media (max-width: 400px){
+    
+    body{
+        margin: 15px 25px;
+        line-height:1;
+    }
+    
     .top-container {
         grid-template-areas: 
             'showcase'
