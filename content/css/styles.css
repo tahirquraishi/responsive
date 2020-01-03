@@ -83,7 +83,7 @@ img{
 .showcase {
     grid-area: showcase;
     min-height: 400px;
-    background: url(/tahirquraishi.github.io/responsive/content/img/showcase.jpg);
+    background: url(/DemoApps/ResponsiveGrids/Content/img/showcase.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -130,7 +130,7 @@ img{
 .boxes {
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .box {
@@ -154,7 +154,7 @@ img{
 .portfolio {
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .portfolio img {
@@ -201,21 +201,24 @@ footer {
 }
 
 /* media query for 500px or less */
-@media (max-width: 400px){
-    
-    body{
-        margin: 10px 20px;
-        line-height:1;
-        border: 1px solid blue;
+@media (max-width: 500px){
+
+    .wrapper {
+        grid-gap: 10px;
     }
-    
+
+    .main-nav ul {
+        grid-gap: 10px;
+    }
+
     .top-container {
+        grid-gap: 10px;
         grid-template-areas: 
             'showcase'
             'top-box-a'
             'top-box-b';
     }
-    
+
     .showcase {
         min-height: 200px;
         min-width: 200px;
@@ -228,15 +231,19 @@ footer {
         color: var(--light);
     }
 
+    .info {
+        grid-gap: 10px;
+    }
+
     .boxes {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     .portfolio {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
