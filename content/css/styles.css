@@ -213,6 +213,11 @@ footer {
 /* media query for 500px or less */
 @media (max-width: 500px){
 
+    body{
+        background: #fcfcfc;
+        margin: 15px 25px;
+    }
+    
     .wrapper {
         grid-gap: 10px;
     }
