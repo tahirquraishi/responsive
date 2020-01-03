@@ -16,6 +16,7 @@ body{
     background: #ccc;
     margin: 30px 50px;
     line-height: 1.4;
+    border 1px solid #d5d5d5;
 }
 
 .btn {
