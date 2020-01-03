@@ -204,8 +204,9 @@ footer {
 @media (max-width: 400px){
     
     body{
-        margin: 15px 25px;
+        margin: 10px 20px;
         line-height:1;
+        border: 1px solid red;
     }
     
     .top-container {
