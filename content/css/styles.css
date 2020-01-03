@@ -206,4 +206,28 @@ footer {
             'top-box-a'
             'top-box-b';
     }
+    
+    .showcase {
+        min-height: 200px;
+        min-width: 200px;
+        padding: 1.2rem;
+    }
+
+    .showcase h1{
+        font-size: 2rem;
+        margin-bottom: 0;
+        color: var(--light);
+    }
+
+    .boxes {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .portfolio {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }
