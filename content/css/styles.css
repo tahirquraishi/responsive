@@ -83,7 +83,7 @@ img{
 .showcase {
     grid-area: showcase;
     min-height: 400px;
-    background: url(/tahirquraishi.github.io/responsive/content/img/showcase.jpg);
+    background: url(https://tahirquraishi.github.io/responsive/content/img/showcase.jpg);
     background-size: cover;
     background-position: center;
     padding: 3rem;
