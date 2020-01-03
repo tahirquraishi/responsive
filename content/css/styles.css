@@ -219,10 +219,10 @@ footer {
             'top-box-b';
     }
 
-    .showcase2 {
+    .showcase {
         min-height: 300px;
-        min-width: 350px;
-        background-size: cover;
+        min-width: 300px;
+        box-shadow: var(--shadow);
         padding: 1.2rem;
     }
 
